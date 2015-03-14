@@ -1,2 +1,33 @@
-Is this aikatsu?
+<html>
+<head>
+<title>AIKATS</title>
+<style>
+body {
+  background: url("assets/akari_eat.jpg");
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+.bounce {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+  text-align:center;
+  background-color: #000;
+  position: absolute;
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 2.4s linear 0s infinite alternate;
+  -o-animation:      moveX 3.05s linear 0s infinite alternate, moveY 2.4s linear 0s infinite alternate;
+  animation:         moveX 3.05s linear 0s infinite alternate, moveY 2.4s linear 0s infinite alternate;
+}
+@-webkit-keyframes moveX { from { left: 5%; } to { left: 85%; } }
+@keyframes moveX         { from { left: 5%; } to { left: 85%; } }
+@-webkit-keyframes moveY { from { top:  5%; } to { top:  85%; } }
+@keyframes moveY         { from { top:  5%; } to { top:  85%; } }
+</style>
+</head>
+<body>
+<div class="bounce"><h1><marquee>WHAT IS AIKATS</marquee></h1></div>
+</body>
+</html>
 
